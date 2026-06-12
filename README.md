@@ -64,9 +64,12 @@ pip install flask flask-sqlalchemy flask-migrate flask-bcrypt flask-jwt-extended
 ```
 
 Create a `.env` file in the `server` folder:
+
+```
 DATABASE_URL=postgresql://localhost/lexdraft
 JWT_SECRET_KEY=your_secret_key_here
 ANTHROPIC_API_KEY=your_anthropic_api_key_here
+```
 
 Create the database and run migrations:
 
