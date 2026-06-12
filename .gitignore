@@ -1,0 +1,14 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+instance/
+.DS_Store
+
+# Node
+node_modules/
+build/
+
+# Migrations (optional - some people include these)
+# migrations/
