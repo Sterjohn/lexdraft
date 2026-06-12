@@ -30,22 +30,21 @@ LexDraft is an AI-powered legal document drafting assistant built for attorneys 
 - Anthropic Claude API
 
 ## Project Structure
-lexdraft/
-├── client/          
 
-# React frontend
+```
+lexdraft/
+├── client/          # React frontend
 │   └── src/
 │       ├── api/
 │       ├── components/
 │       ├── context/
 │       └── pages/
-└── server/      
-
-# Flask backend
-├── models/
-├── routes/
-├── schemas/
-└── migrations/
+└── server/          # Flask backend
+    ├── models/
+    ├── routes/
+    ├── schemas/
+    └── migrations/
+```
 
 ## Getting Started
 
